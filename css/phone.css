@@ -1,0 +1,122 @@
+@media screen and (min-width: 1100px) and (max-width:1300px){
+    .title{
+        margin-top: 66px;
+    }
+}
+@media screen and (min-width: 850px) and (max-width:1100px){
+    .home{
+        height: 90vh;
+    }
+    .product::before{
+        display: none;
+    }
+    .com-img img{
+        width: 200px;
+    }
+}
+
+
+@media screen and (max-width: 850px) {
+    .navbar{
+        flex-direction: column;
+        margin: 10% auto;
+    }
+    .navbar .logo{
+        margin: 16px auto;
+    }
+    .bubble img{
+        width: 40px;
+    }
+    .product::before{
+        display: none;    
+    }
+    .pro-col .content{
+        text-align: left;
+    }
+    .com-img img{
+        width: 170px;
+    }
+    .footer-row{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .navbar ul{
+        flex-direction: column;
+    }
+    .navbar ul li{
+        text-align: center;
+        padding: 8px 5px;
+        font-size: 20px;
+    }
+    .navbar ul li:hover::after{
+        width: 90%;
+    }
+    .home .background{
+        margin-top: 23%;
+    }
+    .home h1{
+        font-size: 2rem;
+    }
+    .home p{
+        font-size: 1rem;
+    }
+    .bubble img{
+        width: 30px;
+    }
+    .row1,.row2,.row3,.row4{
+        flex-direction: column;
+    }
+    .company{
+        flex-direction: column;
+    }
+    .com-img img{
+        width: 120px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .logo img{
+        width: 23%;
+    }
+    
+    .navbar ul li{
+        font-size: 15px;
+        padding: 3px 1px;
+    }
+    .home h1{
+        font-size: 1.8rem;
+    }
+    .home p{
+        font-size: 0.7rem;
+    }
+    .home .background{
+        margin-top: 43%;
+    }
+    .bubble img{
+        width: 25px;
+    }
+    .content p{
+        font-size: 13px;
+    }
+    .pro-col .content{
+        line-height: 19px;
+    }
+    .footer-row p{
+        line-height: 20px;
+    }
+    .footer-left .far,.footer-right .fas{
+        font-size: 14px;
+    }
+    .footer-left,.footer-right{
+        padding: 10px 0px;
+    }
+    .footer-row p{
+        font-size: 14px;
+    }
+    .copy p{
+        padding: 2px;
+        font-size: 14px;
+    }
+}
