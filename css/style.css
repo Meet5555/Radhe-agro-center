@@ -36,19 +36,19 @@
     }
 }
 .bubble img:nth-child(1){
-    animation-delay: 2s;
+    animation-delay: 1s;
     width: 30px;
 }
 .bubble img:nth-child(2){
-    animation-delay: 4s;
-    width: 37px;
+    animation-delay: 0s;
+    width: 50px;
 }
 .bubble img:nth-child(3){
     animation-delay: 3.5s;
     width: 35px;
 }
 .bubble img:nth-child(4){
-    animation-delay: 2s;
+    animation-delay: 0.5s;
     width: 45px;
 }
 .bubble img:nth-child(5){
@@ -56,13 +56,23 @@
     width: 30px;
 }
 .bubble img:nth-child(6){
-    animation-delay: 2.5s;
+    animation-delay: 1.5s;
     width: 45px;
 }
 .bubble img:nth-child(7){
-    animation-delay: 4s;
+    animation-delay: 3.5s;
     width: 40px;
 }
+.bubble img:nth-child(8){
+    animation-delay: 0s;
+    width: 35px;
+}
+.bubble img:nth-child(9){
+    animation-delay: 4s;
+    width: 50px;
+}
+
+
 .navbar{
     display: flex;
     height: 10vh;
